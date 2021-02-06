@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7FI-9h-7qX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Registration View Controller1-->
+        <scene sceneID="JjA-dz-sEg">
+            <objects>
+                <viewController storyboardIdentifier="RegistrationViewController1" id="3xO-OM-beW" customClass="RegistrationViewController1" customModule="LoveChain" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Eu-dd-Few">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="Z2L-il-pRo">
+                                <rect key="frame" x="87" y="218" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="e9k-DW-VNI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Стань частью цепочки добра" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Erz-mE-ef3">
+                                <rect key="frame" x="94" y="383" width="226" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="VJU-Cp-cgl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95K-4j-dWw">
+                                <rect key="frame" x="80" y="486" width="255" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="KEl-hk-Jmk"/>
+                                </constraints>
+                                <string key="text">Площадка, где проживающие в интернатах люди могут создавать предложение сделать доброе дело. А добровольцы — выполнить их и получить бонусы.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE9-Ms-10B" customClass="ButtonCustomClass" customModule="LoveChain" customModuleProvider="target">
+                                <rect key="frame" x="61" y="644" width="293" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196078431372548" blue="0.52941176470588236" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="csn-b6-eEP"/>
+                                </constraints>
+                                <state key="normal" title="Стать участником проекта ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="registrationVC:" destination="3xO-OM-beW" eventType="touchUpInside" id="FUG-RB-qZb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKQ-E3-2ju">
+                                <rect key="frame" x="149" y="702" width="116" height="59"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Войти в аккаунт">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="enterVC:" destination="3xO-OM-beW" eventType="touchUpInside" id="LX2-kY-BqV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uJh-aZ-M7j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZE9-Ms-10B" firstAttribute="leading" secondItem="uJh-aZ-M7j" secondAttribute="leading" constant="61" id="0oe-dw-5JV"/>
+                            <constraint firstItem="uJh-aZ-M7j" firstAttribute="trailing" secondItem="Z2L-il-pRo" secondAttribute="trailing" constant="87" id="9Yh-0L-AAm"/>
+                            <constraint firstItem="VKQ-E3-2ju" firstAttribute="leading" secondItem="uJh-aZ-M7j" secondAttribute="leading" constant="149" id="AsD-DB-gWW"/>
+                            <constraint firstItem="uJh-aZ-M7j" firstAttribute="trailing" secondItem="Erz-mE-ef3" secondAttribute="trailing" constant="94" id="EeO-Tt-5ns"/>
+                            <constraint firstItem="Z2L-il-pRo" firstAttribute="leading" secondItem="uJh-aZ-M7j" secondAttribute="leading" constant="87" id="GhC-V0-ZK8"/>
+                            <constraint firstItem="Erz-mE-ef3" firstAttribute="leading" secondItem="uJh-aZ-M7j" secondAttribute="leading" constant="94" id="H9Z-Zu-TM6"/>
+                            <constraint firstItem="uJh-aZ-M7j" firstAttribute="trailing" secondItem="ZE9-Ms-10B" secondAttribute="trailing" constant="60" id="I21-8Q-g8a"/>
+                            <constraint firstItem="95K-4j-dWw" firstAttribute="leading" secondItem="uJh-aZ-M7j" secondAttribute="leading" constant="80" id="NEK-yi-ihb"/>
+                            <constraint firstItem="uJh-aZ-M7j" firstAttribute="bottom" secondItem="VKQ-E3-2ju" secondAttribute="bottom" constant="101" id="NSo-41-QOT"/>
+                            <constraint firstItem="VKQ-E3-2ju" firstAttribute="top" secondItem="ZE9-Ms-10B" secondAttribute="bottom" constant="8" symbolic="YES" id="Nlu-Dr-td0"/>
+                            <constraint firstItem="95K-4j-dWw" firstAttribute="top" secondItem="Erz-mE-ef3" secondAttribute="bottom" constant="22" id="XWa-GA-lby"/>
+                            <constraint firstItem="ZE9-Ms-10B" firstAttribute="top" secondItem="95K-4j-dWw" secondAttribute="bottom" constant="29" id="XuP-1v-Wrv"/>
+                            <constraint firstItem="Z2L-il-pRo" firstAttribute="top" secondItem="uJh-aZ-M7j" secondAttribute="top" constant="130" id="ka3-OD-y4z"/>
+                            <constraint firstItem="Erz-mE-ef3" firstAttribute="top" secondItem="Z2L-il-pRo" secondAttribute="bottom" constant="37" id="pcL-AI-1dz"/>
+                            <constraint firstItem="uJh-aZ-M7j" firstAttribute="trailing" secondItem="VKQ-E3-2ju" secondAttribute="trailing" constant="149" id="qMY-j8-PEy"/>
+                            <constraint firstItem="uJh-aZ-M7j" firstAttribute="trailing" secondItem="95K-4j-dWw" secondAttribute="trailing" constant="79" id="ypl-IN-hWg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4eG-Cx-61f"/>
+                    <connections>
+                        <outlet property="enterToAccount" destination="VKQ-E3-2ju" id="Ab4-4i-yGZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wfr-h3-0Kk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1763.7681159420292" y="113.83928571428571"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1be-S3-IZX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7FI-9h-7qX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bpP-8H-1oZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3xO-OM-beW" kind="relationship" relationship="rootViewController" id="Kk8-hA-6rR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rOq-iK-Vch" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="853.62318840579712" y="113.83928571428571"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="ZE9-Ms-10B">
+            <size key="intrinsicContentSize" width="196" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="eye" width="1080" height="1080"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

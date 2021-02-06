@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>8C9F1B81-31C9-44E6-9C67-08D3E2B29C07</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>8C9F1B81-31C9-44E6-9C67-08D3E2B29C07.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>LoveChain-fwcmlkxvbvvroafhecmsvujughbe</string>
+			<key>timeStartedRecording</key>
+			<real>634344466.413095</real>
+			<key>timeStoppedRecording</key>
+			<real>634344474.53815997</real>
+			<key>title</key>
+			<string>Build target LoveChain</string>
+			<key>uniqueIdentifier</key>
+			<string>8C9F1B81-31C9-44E6-9C67-08D3E2B29C07</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
