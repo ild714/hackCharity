@@ -156,6 +156,27 @@ depends-member:
 - ["SH", "main"]
 - !private ["SH", "role"]
 - ["SH", "window"]
+- !private ["8SideMenu18InitializableClassP", "$main"]
+- ["8SideMenu18InitializableClassP", "ConnectionOptions"]
+- ["8SideMenu18InitializableClassP", "LaunchOptionsKey"]
+- !private ["8SideMenu18InitializableClassP", "UISceneConfiguration"]
+- ["8SideMenu18InitializableClassP", ""]
+- ["8SideMenu18InitializableClassP", "application"]
+- ["8SideMenu18InitializableClassP", "applicationDidBecomeActive"]
+- ["8SideMenu18InitializableClassP", "applicationDidEnterBackground"]
+- ["8SideMenu18InitializableClassP", "applicationDidFinishLaunching"]
+- ["8SideMenu18InitializableClassP", "applicationDidReceiveMemoryWarning"]
+- ["8SideMenu18InitializableClassP", "applicationProtectedDataDidBecomeAvailable"]
+- ["8SideMenu18InitializableClassP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["8SideMenu18InitializableClassP", "applicationShouldRequestHealthAuthorization"]
+- ["8SideMenu18InitializableClassP", "applicationSignificantTimeChange"]
+- ["8SideMenu18InitializableClassP", "applicationWillEnterForeground"]
+- ["8SideMenu18InitializableClassP", "applicationWillResignActive"]
+- ["8SideMenu18InitializableClassP", "applicationWillTerminate"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- ["8SideMenu18InitializableClassP", "main"]
+- !private ["8SideMenu18InitializableClassP", "role"]
+- ["8SideMenu18InitializableClassP", "window"]
 - ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "init"]
@@ -401,6 +422,7 @@ depends-nominal:
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
+- "8SideMenu18InitializableClassP"
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
@@ -440,7 +462,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"

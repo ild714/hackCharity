@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7420078825CFEDB90079869F /* AllTasksCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420078725CFEDB90079869F /* AllTasksCollectionViewController.swift */; };
+		7420078C25CFEDCB0079869F /* AllTasksCollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7420078B25CFEDCB0079869F /* AllTasksCollectionViewController.storyboard */; };
+		7420079025CFF6EE0079869F /* TaskCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7420078F25CFF6EE0079869F /* TaskCreatorViewController.swift */; };
+		7420079325CFF7480079869F /* TaskCreatorViewcontroller.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7420079225CFF7480079869F /* TaskCreatorViewcontroller.storyboard */; };
 		7495578425CEA7D2000E52A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495578325CEA7D2000E52A0 /* AppDelegate.swift */; };
 		7495578625CEA7D2000E52A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495578525CEA7D2000E52A0 /* SceneDelegate.swift */; };
 		7495578D25CEA7D5000E52A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7495578C25CEA7D5000E52A0 /* Assets.xcassets */; };
@@ -18,9 +22,23 @@
 		7495582625CF3F69000E52A0 /* RegistrationViewController2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495582525CF3F69000E52A0 /* RegistrationViewController2.storyboard */; };
 		7495584325CF4DD0000E52A0 /* RegistrationViewController3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495584225CF4DD0000E52A0 /* RegistrationViewController3.storyboard */; };
 		7495584725CF4E0F000E52A0 /* RegistrationViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495584625CF4E0F000E52A0 /* RegistrationViewController3.swift */; };
+		7495584F25CF5811000E52A0 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495584E25CF5811000E52A0 /* CollectionViewController.swift */; };
+		7495585725CF599F000E52A0 /* CollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495585625CF599F000E52A0 /* CollectionViewController.storyboard */; };
+		7495585B25CF5AA8000E52A0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495585A25CF5AA7000E52A0 /* MenuViewController.swift */; };
+		7495586425CF6CFD000E52A0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495586225CF6CFD000E52A0 /* CollectionViewCell.swift */; };
+		7495586525CF6CFD000E52A0 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7495586325CF6CFD000E52A0 /* CollectionViewCell.xib */; };
+		7495586925CF6D52000E52A0 /* ModelTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495586825CF6D52000E52A0 /* ModelTask.swift */; };
+		7495586E25CF7254000E52A0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495586D25CF7254000E52A0 /* ColorExtension.swift */; };
+		CCC223948E1695B9E69146B8 /* Pods_LoveChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A6FA64E3A7BE7931A49C1 /* Pods_LoveChain.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49B2CC7E97361DDDDA2312AE /* Pods-LoveChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveChain.debug.xcconfig"; path = "Target Support Files/Pods-LoveChain/Pods-LoveChain.debug.xcconfig"; sourceTree = "<group>"; };
+		64E85C04567426F994EBEAE8 /* Pods-LoveChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveChain.release.xcconfig"; path = "Target Support Files/Pods-LoveChain/Pods-LoveChain.release.xcconfig"; sourceTree = "<group>"; };
+		7420078725CFEDB90079869F /* AllTasksCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTasksCollectionViewController.swift; sourceTree = "<group>"; };
+		7420078B25CFEDCB0079869F /* AllTasksCollectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllTasksCollectionViewController.storyboard; sourceTree = "<group>"; };
+		7420078F25CFF6EE0079869F /* TaskCreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCreatorViewController.swift; sourceTree = "<group>"; };
+		7420079225CFF7480079869F /* TaskCreatorViewcontroller.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskCreatorViewcontroller.storyboard; sourceTree = "<group>"; };
 		7495578025CEA7D2000E52A0 /* LoveChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7495578325CEA7D2000E52A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7495578525CEA7D2000E52A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +52,14 @@
 		7495582525CF3F69000E52A0 /* RegistrationViewController2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationViewController2.storyboard; sourceTree = "<group>"; };
 		7495584225CF4DD0000E52A0 /* RegistrationViewController3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationViewController3.storyboard; sourceTree = "<group>"; };
 		7495584625CF4E0F000E52A0 /* RegistrationViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController3.swift; sourceTree = "<group>"; };
+		7495584E25CF5811000E52A0 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		7495585625CF599F000E52A0 /* CollectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionViewController.storyboard; sourceTree = "<group>"; };
+		7495585A25CF5AA7000E52A0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7495586225CF6CFD000E52A0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7495586325CF6CFD000E52A0 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		7495586825CF6D52000E52A0 /* ModelTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTask.swift; sourceTree = "<group>"; };
+		7495586D25CF7254000E52A0 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		7C5A6FA64E3A7BE7931A49C1 /* Pods_LoveChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +67,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC223948E1695B9E69146B8 /* Pods_LoveChain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7420078325CFE6EB0079869F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7495586825CF6D52000E52A0 /* ModelTask.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7420078525CFED360079869F /* CollectionViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7420078E25CFF6A90079869F /* TaskCreatorViewController */,
+				7420078625CFED7A0079869F /* AllTaskdCollectionViewController */,
+				7495584D25CF57D2000E52A0 /* CollectionViewController */,
+			);
+			path = CollectionViewControllers;
+			sourceTree = "<group>";
+		};
+		7420078625CFED7A0079869F /* AllTaskdCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7420078725CFEDB90079869F /* AllTasksCollectionViewController.swift */,
+				7420078B25CFEDCB0079869F /* AllTasksCollectionViewController.storyboard */,
+			);
+			path = AllTaskdCollectionViewController;
+			sourceTree = "<group>";
+		};
+		7420078E25CFF6A90079869F /* TaskCreatorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7420078F25CFF6EE0079869F /* TaskCreatorViewController.swift */,
+				7420079225CFF7480079869F /* TaskCreatorViewcontroller.storyboard */,
+			);
+			path = TaskCreatorViewController;
+			sourceTree = "<group>";
+		};
 		7495577725CEA7D2000E52A0 = {
 			isa = PBXGroup;
 			children = (
 				7495578225CEA7D2000E52A0 /* LoveChain */,
 				7495578125CEA7D2000E52A0 /* Products */,
+				8122893B30C275E5507B076D /* Pods */,
+				8BA014FC7E87D347FB3532D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +131,8 @@
 		7495578225CEA7D2000E52A0 /* LoveChain */ = {
 			isa = PBXGroup;
 			children = (
+				7420078525CFED360079869F /* CollectionViewControllers */,
+				7495585925CF5A8E000E52A0 /* Menu */,
 				7495584B25CF573B000E52A0 /* Configuration */,
 				7495581925CF35EC000E52A0 /* CustomClasses */,
 				7495580B25CF1684000E52A0 /* Registration */,
@@ -89,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				7495581A25CF3615000E52A0 /* ButtonCustomClass.swift */,
+				7495586D25CF7254000E52A0 /* ColorExtension.swift */,
 			);
 			path = CustomClasses;
 			sourceTree = "<group>";
@@ -130,6 +198,51 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		7495584D25CF57D2000E52A0 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7420078325CFE6EB0079869F /* Model */,
+				7495586125CF6CCD000E52A0 /* CollectionViewCell */,
+				7495584E25CF5811000E52A0 /* CollectionViewController.swift */,
+				7495585625CF599F000E52A0 /* CollectionViewController.storyboard */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		7495585925CF5A8E000E52A0 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7495585A25CF5AA7000E52A0 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		7495586125CF6CCD000E52A0 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7495586225CF6CFD000E52A0 /* CollectionViewCell.swift */,
+				7495586325CF6CFD000E52A0 /* CollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8122893B30C275E5507B076D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49B2CC7E97361DDDDA2312AE /* Pods-LoveChain.debug.xcconfig */,
+				64E85C04567426F994EBEAE8 /* Pods-LoveChain.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BA014FC7E87D347FB3532D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A6FA64E3A7BE7931A49C1 /* Pods_LoveChain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7495579425CEA7D5000E52A0 /* Build configuration list for PBXNativeTarget "LoveChain" */;
 			buildPhases = (
+				4C380B13A5BE699547E2B42D /* [CP] Check Pods Manifest.lock */,
 				7495577C25CEA7D2000E52A0 /* Sources */,
 				7495577D25CEA7D2000E52A0 /* Frameworks */,
 				7495577E25CEA7D2000E52A0 /* Resources */,
+				DD11CDA4B30DAC304631BACA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,14 +303,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				7495584325CF4DD0000E52A0 /* RegistrationViewController3.storyboard in Resources */,
+				7420079325CFF7480079869F /* TaskCreatorViewcontroller.storyboard in Resources */,
+				7495586525CF6CFD000E52A0 /* CollectionViewCell.xib in Resources */,
 				7495581725CF1AEA000E52A0 /* RegistrationViewController1.storyboard in Resources */,
 				7495579025CEA7D5000E52A0 /* LaunchScreen.storyboard in Resources */,
+				7420078C25CFEDCB0079869F /* AllTasksCollectionViewController.storyboard in Resources */,
+				7495585725CF599F000E52A0 /* CollectionViewController.storyboard in Resources */,
 				7495582625CF3F69000E52A0 /* RegistrationViewController2.storyboard in Resources */,
 				7495578D25CEA7D5000E52A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C380B13A5BE699547E2B42D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveChain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD11CDA4B30DAC304631BACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveChain/Pods-LoveChain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveChain/Pods-LoveChain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveChain/Pods-LoveChain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7495577C25CEA7D2000E52A0 /* Sources */ = {
@@ -204,10 +365,17 @@
 			files = (
 				7495581425CF1ACE000E52A0 /* RegistrationViewController1.swift in Sources */,
 				7495582225CF3F0E000E52A0 /* RegistrationViewController2.swift in Sources */,
+				7495586425CF6CFD000E52A0 /* CollectionViewCell.swift in Sources */,
 				7495581B25CF3615000E52A0 /* ButtonCustomClass.swift in Sources */,
 				7495578425CEA7D2000E52A0 /* AppDelegate.swift in Sources */,
+				7420079025CFF6EE0079869F /* TaskCreatorViewController.swift in Sources */,
+				7495584F25CF5811000E52A0 /* CollectionViewController.swift in Sources */,
+				7495586925CF6D52000E52A0 /* ModelTask.swift in Sources */,
+				7420078825CFEDB90079869F /* AllTasksCollectionViewController.swift in Sources */,
 				7495578625CEA7D2000E52A0 /* SceneDelegate.swift in Sources */,
 				7495584725CF4E0F000E52A0 /* RegistrationViewController3.swift in Sources */,
+				7495586E25CF7254000E52A0 /* ColorExtension.swift in Sources */,
+				7495585B25CF5AA8000E52A0 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +511,7 @@
 		};
 		7495579525CEA7D5000E52A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B2CC7E97361DDDDA2312AE /* Pods-LoveChain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -361,6 +530,7 @@
 		};
 		7495579625CEA7D5000E52A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E85C04567426F994EBEAE8 /* Pods-LoveChain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

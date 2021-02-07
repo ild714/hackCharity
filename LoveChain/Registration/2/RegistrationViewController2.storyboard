@@ -40,13 +40,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите данные" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RVT-EJ-53X">
-                                <rect key="frame" x="38" y="416" width="345" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите данные" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RVT-EJ-53X">
+                                <rect key="frame" x="38" y="391" width="345" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBL-fC-2xe">
-                                <rect key="frame" x="38" y="464" width="43" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBL-fC-2xe">
+                                <rect key="frame" x="38" y="439" width="43" height="17"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="17" id="yu9-93-2r6"/>
                                 </constraints>
@@ -54,30 +54,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите почту" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mxd-fq-wJh">
-                                <rect key="frame" x="38" y="490" width="345" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите почту" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mxd-fq-wJh">
+                                <rect key="frame" x="38" y="465" width="345" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Пароль" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcu-nb-XJt">
-                                <rect key="frame" x="38" y="538" width="52.5" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пароль" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcu-nb-XJt">
+                                <rect key="frame" x="38" y="513" width="52.5" height="17"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Минимум 6 символов" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HpH-ZQ-YSV">
-                                <rect key="frame" x="38" y="564" width="345" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Минимум 6 символов" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HpH-ZQ-YSV">
+                                <rect key="frame" x="38" y="539" width="345" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ваша роль в проекте" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxU-ie-rmz">
-                                <rect key="frame" x="38" y="613" width="147.5" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваша роль в проекте" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxU-ie-rmz">
+                                <rect key="frame" x="38" y="588" width="147.5" height="17"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JH7-XW-hVM" customClass="ButtonCustomClass" customModule="LoveChain" customModuleProvider="target">
-                                <rect key="frame" x="64" y="688" width="293" height="50"/>
+                                <rect key="frame" x="64" y="663" width="293" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.52941176469999995" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ysc-3J-VN4"/>
@@ -90,9 +90,12 @@
                                         <real key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="register:" destination="YaM-sN-s91" eventType="touchUpInside" id="iph-s6-f5U"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="AyH-ca-cXJ">
-                                <rect key="frame" x="87" y="746" width="247" height="28"/>
+                                <rect key="frame" x="87" y="721" width="247" height="28"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уже зарегистрированы? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2T-1W-iuM">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="28"/>
@@ -112,8 +115,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите вашу роль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mN5-aa-mds">
-                                <rect key="frame" x="38" y="638" width="345" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите вашу роль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mN5-aa-mds">
+                                <rect key="frame" x="38" y="613" width="345" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -121,6 +124,7 @@
                         <viewLayoutGuide key="safeArea" id="Zh5-e9-G6e"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="RVT-EJ-53X" firstAttribute="top" secondItem="MC9-Jq-Q7N" secondAttribute="bottom" constant="13" id="0fQ-or-zfn"/>
                             <constraint firstItem="RVT-EJ-53X" firstAttribute="leading" secondItem="Zh5-e9-G6e" secondAttribute="leading" constant="38" id="0jf-y0-aSZ"/>
                             <constraint firstItem="Zh5-e9-G6e" firstAttribute="trailing" secondItem="AyH-ca-cXJ" secondAttribute="trailing" constant="80" id="2aY-dB-fYb"/>
                             <constraint firstItem="AyH-ca-cXJ" firstAttribute="top" secondItem="JH7-XW-hVM" secondAttribute="bottom" constant="8" symbolic="YES" id="3CD-7K-xBK"/>
@@ -132,7 +136,6 @@
                             <constraint firstItem="Zh5-e9-G6e" firstAttribute="trailing" secondItem="RVT-EJ-53X" secondAttribute="trailing" constant="31" id="9EA-Sz-21A"/>
                             <constraint firstItem="JH7-XW-hVM" firstAttribute="leading" secondItem="Zh5-e9-G6e" secondAttribute="leading" constant="64" id="9S1-h2-bok"/>
                             <constraint firstItem="GBL-fC-2xe" firstAttribute="top" secondItem="RVT-EJ-53X" secondAttribute="bottom" constant="14" id="AwH-m5-UH1"/>
-                            <constraint firstItem="RVT-EJ-53X" firstAttribute="top" secondItem="MC9-Jq-Q7N" secondAttribute="bottom" constant="9" id="B1h-k1-eeA"/>
                             <constraint firstItem="JPt-c2-DcV" firstAttribute="top" secondItem="gol-n2-HmE" secondAttribute="bottom" constant="20" id="B5H-9r-xrD"/>
                             <constraint firstItem="PxU-ie-rmz" firstAttribute="top" secondItem="HpH-ZQ-YSV" secondAttribute="bottom" constant="15" id="JLe-xB-Kp3"/>
                             <constraint firstItem="JH7-XW-hVM" firstAttribute="top" secondItem="mN5-aa-mds" secondAttribute="bottom" constant="16" id="Jo5-G3-nTN"/>
@@ -149,7 +152,6 @@
                             <constraint firstItem="PxU-ie-rmz" firstAttribute="leading" secondItem="Zh5-e9-G6e" secondAttribute="leading" constant="38" id="bFT-DU-VZc"/>
                             <constraint firstItem="MC9-Jq-Q7N" firstAttribute="leading" secondItem="Zh5-e9-G6e" secondAttribute="leading" constant="38" id="cbT-Uo-BTf"/>
                             <constraint firstItem="Zh5-e9-G6e" firstAttribute="trailing" secondItem="mN5-aa-mds" secondAttribute="trailing" constant="31" id="cna-dH-g9A"/>
-                            <constraint firstItem="Zh5-e9-G6e" firstAttribute="bottom" secondItem="AyH-ca-cXJ" secondAttribute="bottom" constant="88" id="dka-Ux-nJP"/>
                             <constraint firstItem="Zh5-e9-G6e" firstAttribute="trailing" secondItem="JPt-c2-DcV" secondAttribute="trailing" constant="31" id="g9n-uV-wb5"/>
                             <constraint firstItem="Zh5-e9-G6e" firstAttribute="trailing" secondItem="JH7-XW-hVM" secondAttribute="trailing" constant="57" id="h4s-ud-geI"/>
                             <constraint firstItem="MC9-Jq-Q7N" firstAttribute="top" secondItem="JPt-c2-DcV" secondAttribute="bottom" constant="18.5" id="of8-C9-7Dz"/>

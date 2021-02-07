@@ -1,11 +1,17 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "07ebcb84d433910deff01653441ff48b"
-build_time: [1612651638, 460264000]
+options: "a374591dd59b9f2790be6e1d49fac84d"
+build_time: [1612693944, 507710000]
 inputs:
-  "/Users/ildar/Desktop/TestApp/LoveChain/MainViewController.swift": [1612643070, 238612484]
   "/Users/ildar/Desktop/TestApp/LoveChain/Registration/1/RegistrationViewController1.swift": [1612651528, 3307297]
-  "/Users/ildar/Desktop/TestApp/LoveChain/Registration/2/RegistrationViewController2.swift": [1612651159, 288532279]
+  "/Users/ildar/Desktop/TestApp/LoveChain/Registration/2/RegistrationViewController2.swift": [1612655077, 970293787]
+  "/Users/ildar/Desktop/TestApp/LoveChain/CollectionViewControllers/CollectionViewController/CollectionViewCell/CollectionViewCell.swift": [1612691879, 609637794]
   "/Users/ildar/Desktop/TestApp/LoveChain/CustomClasses/ButtonCustomClass.swift": [1612645325, 59687566]
-  "/Users/ildar/Desktop/TestApp/LoveChain/AppDelegate.swift": [1612609636, 575947003]
-  "/Users/ildar/Desktop/TestApp/LoveChain/SceneDelegate.swift": [1612649146, 43753531]
-  "/Users/ildar/Desktop/TestApp/LoveChain/Registration/3/RegistrationViewController3.swift": [1612651590, 183153598]
+  "/Users/ildar/Desktop/TestApp/LoveChain/Configuration/AppDelegate.swift": [1612652514, 375769615]
+  "/Users/ildar/Desktop/TestApp/LoveChain/CollectionViewControllers/TaskCreatorViewController/TaskCreatorViewController.swift": !dirty [1612693740, 70068954]
+  "/Users/ildar/Desktop/TestApp/LoveChain/CollectionViewControllers/CollectionViewController/CollectionViewController.swift": [1612692550, 672245311]
+  "/Users/ildar/Desktop/TestApp/LoveChain/CollectionViewControllers/CollectionViewController/Model/ModelTask.swift": [1612691207, 511592291]
+  "/Users/ildar/Desktop/TestApp/LoveChain/CollectionViewControllers/AllTaskdCollectionViewController/AllTasksCollectionViewController.swift": [1612693084, 206966309]
+  "/Users/ildar/Desktop/TestApp/LoveChain/Configuration/SceneDelegate.swift": [1612649146, 43753531]
+  "/Users/ildar/Desktop/TestApp/LoveChain/Registration/3/RegistrationViewController3.swift": [1612653820, 752267144]
+  "/Users/ildar/Desktop/TestApp/LoveChain/CustomClasses/ColorExtension.swift": [1612659423, 478781990]
+  "/Users/ildar/Desktop/TestApp/LoveChain/Menu/MenuViewController.swift": [1612692160, 324573879]

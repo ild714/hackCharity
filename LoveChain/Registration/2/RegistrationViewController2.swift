@@ -18,6 +18,16 @@ class RegistrationViewController2: UIViewController {
         enter.underline()
     }
     
+    @IBAction func register(_ sender: Any) {
+        if let enter = CollectionViewController.storyboardInstance() {
+            self.navigationController?.pushViewController(enter, animated: true)
+        }
+    }
+    @IBAction func enter(_ sender: Any) {
+        if let enter = CollectionViewController.storyboardInstance() {
+            self.navigationController?.pushViewController(enter, animated: true)
+        }
+    }
     static func storyboardInstance() -> RegistrationViewController2? {
         let storyboard = UIStoryboard(name: String(describing: self), bundle: nil)
         return storyboard.instantiateViewController(withIdentifier: String(describing: self)) as? RegistrationViewController2

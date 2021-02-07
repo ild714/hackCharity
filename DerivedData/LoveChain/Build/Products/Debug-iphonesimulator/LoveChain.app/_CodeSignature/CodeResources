@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AllTasksCollectionViewController.storyboardc/1TG-U8-fli-view-sLk-cf-ESn.nib</key>
+		<data>
+		Tf1KlJ8rI7Bd1kmwwP+F1YFPBNQ=
+		</data>
+		<key>AllTasksCollectionViewController.storyboardc/AllTasksCollectionViewController.nib</key>
+		<data>
+		EN/l/00AK5zvmnbfmDdZt0rjSdc=
+		</data>
+		<key>AllTasksCollectionViewController.storyboardc/Info.plist</key>
+		<data>
+		wUAFmVBCWNOCOk140fqrZ8HyXZc=
+		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
 		p1v+JrR6iqOcvM3I5/cvDR3OPKY=
@@ -14,11 +26,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		xi4/fWz5tu6TMYV7A5N0Uq2bDdU=
+		/Yo38fFbGvGtTvDla6d7/nKs65Y=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		KXOeQhFcWSUPG9QL970NfL9e7xw=
+		84HbxRrPDhdhn5Geg8QjxhclHw0=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -26,23 +38,39 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		NDmfjhzmBnZpN92syyHnnOjAcFs=
+		7zAUi+KNJ4MjJJ6SsTeKe4UPhTA=
+		</data>
+		<key>CollectionViewCell.nib</key>
+		<data>
+		161cdrGqBs8EhMX0C7fLVF3Qzn4=
+		</data>
+		<key>CollectionViewController.storyboardc/10S-Vi-5Bh-view-s01-mU-anP.nib</key>
+		<data>
+		wnbwudULkGXjePNuLxapfK84OIM=
+		</data>
+		<key>CollectionViewController.storyboardc/CollectionViewController.nib</key>
+		<data>
+		1zJCl/IdcnxFJXNdG3DZ5u1IxSU=
+		</data>
+		<key>CollectionViewController.storyboardc/Info.plist</key>
+		<data>
+		VAjTb23ndn/JHKwBhCFaV+Gq9UY=
+		</data>
+		<key>Frameworks/SideMenu.framework/Info.plist</key>
+		<data>
+		nvY8+xg3vwzPZjLVtZ5eWCQKnUU=
+		</data>
+		<key>Frameworks/SideMenu.framework/SideMenu</key>
+		<data>
+		2WJABSWhOrLc4KoNLFwkCfIuKCM=
+		</data>
+		<key>Frameworks/SideMenu.framework/_CodeSignature/CodeResources</key>
+		<data>
+		wDg2kRhPyRyP7nUuF/2R3KaZL7A=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		3Wmf1XVaW3mK7sWID95QL46tRbo=
-		</data>
-		<key>MainViewController.storyboardc/Info.plist</key>
-		<data>
-		n9Fze1dOACCOpFijLUquvBCQ1mY=
-		</data>
-		<key>MainViewController.storyboardc/MainViewController.nib</key>
-		<data>
-		/ohNZNQMDeKucJH5p0mZh9164sM=
-		</data>
-		<key>MainViewController.storyboardc/ad5-h9-zAF-view-oLg-40-wEG.nib</key>
-		<data>
-		iqq6xBc1C8XhuIYPrkSi/vZ6AqQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -50,7 +78,7 @@
 		</data>
 		<key>RegistrationViewController1.storyboardc/3xO-OM-beW-view-1Eu-dd-Few.nib</key>
 		<data>
-		PjfwxJYwvavo7bAUbSrKbLHU1VI=
+		dzgyA9VhmKxKsxjeaUIX7SYQXBM=
 		</data>
 		<key>RegistrationViewController1.storyboardc/Info.plist</key>
 		<data>
@@ -58,11 +86,11 @@
 		</data>
 		<key>RegistrationViewController1.storyboardc/RegistrationViewController1.nib</key>
 		<data>
-		J+fuwZRuFGaMHFr39xf7//f3+Ag=
+		0qkqHaQczXk8BplWpIDSx2zH1FQ=
 		</data>
 		<key>RegistrationViewController1.storyboardc/UINavigationController-7FI-9h-7qX.nib</key>
 		<data>
-		Ls8AW1IAXU1FMTn8bEZJi635E18=
+		4O2w8w0Ey1IJTOob+Mldr/j7o84=
 		</data>
 		<key>RegistrationViewController2.storyboardc/Info.plist</key>
 		<data>
@@ -70,15 +98,15 @@
 		</data>
 		<key>RegistrationViewController2.storyboardc/RegistrationViewController2.nib</key>
 		<data>
-		O/Czq18zpM2t7/DsdCPLZ27pvDQ=
+		d0iLRZNZnjy3xa2lZvt+BYGmCns=
 		</data>
 		<key>RegistrationViewController2.storyboardc/YaM-sN-s91-view-xA9-kU-nvJ.nib</key>
 		<data>
-		sCJ7yJwHO8CSTSknSY8xrcHa3GQ=
+		t4yt1T9a1JxFWojmSK670BLksAI=
 		</data>
 		<key>RegistrationViewController3.storyboardc/EaR-TY-RlS-view-mVd-ys-N1O.nib</key>
 		<data>
-		ak/o7nSNQivgSnW8lwvbeptp7l4=
+		YAXR/hVUBVoP4c0u8qURdOrzCFE=
 		</data>
 		<key>RegistrationViewController3.storyboardc/Info.plist</key>
 		<data>
@@ -86,11 +114,32 @@
 		</data>
 		<key>RegistrationViewController3.storyboardc/RegistrationViewController3.nib</key>
 		<data>
-		rNJPNEh6qXl2mQMdoDiLUImOULU=
+		lkv566gUQfJoAHJUJZLAxHYaSyM=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AllTasksCollectionViewController.storyboardc/1TG-U8-fli-view-sLk-cf-ESn.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SySJgqXEVaSbCsdXRiCbRnL49Fs2B1ZZIUx94j89TTE=
+			</data>
+		</dict>
+		<key>AllTasksCollectionViewController.storyboardc/AllTasksCollectionViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yD2EcdnWJC4AZmasVQ43l09dgX73E+ZAm5awBxGuRtw=
+			</data>
+		</dict>
+		<key>AllTasksCollectionViewController.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gQSyFcaWORTIsEOiA9P/Lkv4i08kU22OwzrpeR7lJRE=
+			</data>
+		</dict>
 		<key>AppIcon60x60@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -109,14 +158,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x26r37dLNnlchdQJysDpOxVPZqLPzkEpDURaRkPe4BM=
+			zbBo5JjFjv9vnoxcL/nSNqjDvmUXH50/mQxtiwgdOXQ=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F0LREhkEcZcAz55HtICGMWLua8e4WRTSS4EelDUBymw=
+			83wyqGejv1bQKZAYDEYAbLrsfNKI0+CA5XFmYVFcXtA=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -130,35 +179,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q83tlpIwSfUj1Ae0I4u+SErwIRSgPdZdAZyst6FNXZU=
+			/gYd6nZaZflgkGs0qBF9IkgZSgmvkBaj10//U2w/PKQ=
 			</data>
 		</dict>
-		<key>MainViewController.storyboardc/Info.plist</key>
+		<key>CollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Otgnc9d2eG1FaiVDKqc2ybFMItvL3UzIAI/Vi64G7os=
+			Fz+ylrKkfstlwqqyMNUHpFVCxJdAmlVkxms3q5C3bDc=
 			</data>
 		</dict>
-		<key>MainViewController.storyboardc/MainViewController.nib</key>
+		<key>CollectionViewController.storyboardc/10S-Vi-5Bh-view-s01-mU-anP.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NKiu+fVdNQPtl3vxPKvPG8gZ0XRv5HDdIKNqGwSCw+A=
+			jlbOufcWK9LkZZRd0zU5UXf25bw5fbyd7vEAtoZAdhA=
 			</data>
 		</dict>
-		<key>MainViewController.storyboardc/ad5-h9-zAF-view-oLg-40-wEG.nib</key>
+		<key>CollectionViewController.storyboardc/CollectionViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AT9Fe9PTdjxcLEAH9hSM+mNTkXeMZXJbe39EtMCihvA=
+			ylE2quBRGGBBNF8PBT9zRNFQmnsi8ca8TTxHwdfH7qw=
+			</data>
+		</dict>
+		<key>CollectionViewController.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jnHeDqLGBmc2VpGG65batjR+VmxEPgZ1eYP2yC/5cjc=
+			</data>
+		</dict>
+		<key>Frameworks/SideMenu.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			onAgKWy7e2QH4HaoMoMqh1DZw54xgktBm9+TaR+ebPI=
+			</data>
+		</dict>
+		<key>Frameworks/SideMenu.framework/SideMenu</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yN4PJofsC5XFrkXex1YpWOmTeRc+t/yfvDG/CYJ5jfg=
+			</data>
+		</dict>
+		<key>Frameworks/SideMenu.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eLJrirFYKKV7K6zEjmib39ZpRR6qOAb8IkNrbe4jqU0=
 			</data>
 		</dict>
 		<key>RegistrationViewController1.storyboardc/3xO-OM-beW-view-1Eu-dd-Few.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0gDwDQ2Ahra5R7GHmSxHm0n4ZY4nm58OpmrSSxuhmHA=
+			BZBT2QwfIYlCCh+UXqiEzoGtFTH3eaNQdnbKAoJFrS0=
 			</data>
 		</dict>
 		<key>RegistrationViewController1.storyboardc/Info.plist</key>
@@ -172,14 +249,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KuaagG4R+mVzIOI7LFfLk3Scv/rbhwcetXt9fHjmvcs=
+			ECj3/XB6sHfAaoGKi9+RBQ+SKPi9f3skGO5xhg9jMcE=
 			</data>
 		</dict>
 		<key>RegistrationViewController1.storyboardc/UINavigationController-7FI-9h-7qX.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Km3ndtmf2XKEBNXLbtj2GJyC3iWaJf48nDyMDHmLd40=
+			sSHDa6CSoneVi8fz2/1QENDk9/HrXDuTJJrddJ22NAs=
 			</data>
 		</dict>
 		<key>RegistrationViewController2.storyboardc/Info.plist</key>
@@ -193,21 +270,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l8qG7Q8yC+2K1SqbXJiR/IZPprRTvEd3quTQ++4hGmw=
+			dRpZCWmbhZMrkYqfFumIlZVJGoPeYZUZ8dg0242WAXA=
 			</data>
 		</dict>
 		<key>RegistrationViewController2.storyboardc/YaM-sN-s91-view-xA9-kU-nvJ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6pVZsdBeb0Q3d21ubo2G4tj5Z+3pzH+t/RiGQvuV8jk=
+			6Y7qAhXv4qcXJEQkKBqIsHh3deDTQ1BK7HeAxLuycM8=
 			</data>
 		</dict>
 		<key>RegistrationViewController3.storyboardc/EaR-TY-RlS-view-mVd-ys-N1O.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o8VXT5BD2Ar7ZPZfWFbekZj5UrLKYL4L4bwyEFYPaDc=
+			Pxq8zQ9yJe8MAMCKeGz+BI1jU1XPq00lMQF723DN2js=
 			</data>
 		</dict>
 		<key>RegistrationViewController3.storyboardc/Info.plist</key>
@@ -221,7 +298,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XUV9oLnDSH+BQF2wCDl5D0bvdDNU6P7N/oAva+6e4gg=
+			TmZe/1NMRtpp2CJ40pJMUHHQnXcCh/wTnb+kY6BoheE=
 			</data>
 		</dict>
 	</dict>

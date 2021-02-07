@@ -32,8 +32,6 @@ depends-top-level:
 - !private "window"
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
-- ["SK", ""]
-- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
 - !private ["So15CALayerDelegateP", "rootViewController"]
@@ -59,8 +57,7 @@ depends-member:
 - !private ["s7CVarArgP", "viewControllers"]
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", "windowScene"]
-- ["Sl", ""]
-- ["SL", ""]
+- !private ["SL", ""]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
 - !private ["s28CustomDebugStringConvertibleP", "RegistrationViewController1"]
 - !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
@@ -128,12 +125,8 @@ depends-member:
 - ["SQ", "window"]
 - ["SQ", "windowScene"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - ["SH", "ConnectionOptions"]
 - !private ["SH", "RegistrationViewController1"]
@@ -157,7 +150,28 @@ depends-member:
 - !private ["SH", "viewControllers"]
 - ["SH", "window"]
 - ["SH", "windowScene"]
-- ["s25LosslessStringConvertibleP", ""]
+- ["8SideMenu18InitializableClassP", "ConnectionOptions"]
+- !private ["8SideMenu18InitializableClassP", "RegistrationViewController1"]
+- !private ["8SideMenu18InitializableClassP", "UIStoryboard"]
+- !private ["8SideMenu18InitializableClassP", "UIWindow"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "instantiateInitialViewController"]
+- !private ["8SideMenu18InitializableClassP", "isNavigationBarHidden"]
+- !private ["8SideMenu18InitializableClassP", "makeKeyAndVisible"]
+- !private ["8SideMenu18InitializableClassP", "rootViewController"]
+- ["8SideMenu18InitializableClassP", "scene"]
+- ["8SideMenu18InitializableClassP", "sceneDidBecomeActive"]
+- ["8SideMenu18InitializableClassP", "sceneDidDisconnect"]
+- ["8SideMenu18InitializableClassP", "sceneDidEnterBackground"]
+- ["8SideMenu18InitializableClassP", "sceneWillEnterForeground"]
+- ["8SideMenu18InitializableClassP", "sceneWillResignActive"]
+- ["8SideMenu18InitializableClassP", "stateRestorationActivity"]
+- ["8SideMenu18InitializableClassP", "stateRestorationActivityForScene"]
+- !private ["8SideMenu18InitializableClassP", "storyboardInstance"]
+- !private ["8SideMenu18InitializableClassP", "viewControllers"]
+- ["8SideMenu18InitializableClassP", "window"]
+- ["8SideMenu18InitializableClassP", "windowScene"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "isNavigationBarHidden"]
@@ -165,7 +179,6 @@ depends-member:
 - !private ["So8NSCodingP", "rootViewController"]
 - ["So8NSCodingP", "storyboardInstance"]
 - !private ["So8NSCodingP", "viewControllers"]
-- !private ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "isNavigationBarHidden"]
 - ["So26NSExtensionRequestHandlingP", "storyboardInstance"]
 - !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
@@ -192,7 +205,6 @@ depends-member:
 - ["So8NSObjectC", "stateRestorationActivity"]
 - ["So8NSObjectC", "stateRestorationActivityForScene"]
 - !private ["So8NSObjectC", "storyboardInstance"]
-- !private ["So8NSObjectC", "storyboardWithName"]
 - !private ["So8NSObjectC", "viewControllers"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectC", "windowScene"]
@@ -220,7 +232,6 @@ depends-member:
 - ["So8NSObjectP", "stateRestorationActivity"]
 - ["So8NSObjectP", "stateRestorationActivityForScene"]
 - ["So8NSObjectP", "storyboardInstance"]
-- !private ["So8NSObjectP", "storyboardWithName"]
 - !private ["So8NSObjectP", "viewControllers"]
 - ["So8NSObjectP", "window"]
 - ["So8NSObjectP", "windowScene"]
@@ -246,35 +257,26 @@ depends-member:
 - ["9LoveChain13SceneDelegateC", "stateRestorationActivityForScene"]
 - ["9LoveChain13SceneDelegateC", "window"]
 - ["9LoveChain13SceneDelegateC", "windowScene"]
-- ["ST", ""]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
-- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
 - !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
-- !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "makeKeyAndVisible"]
 - !private ["So12UIAppearanceP", "rootViewController"]
-- !private ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "isNavigationBarHidden"]
 - !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
 - !private ["So21UIAppearanceContainerP", "rootViewController"]
 - ["So21UIAppearanceContainerP", "storyboardInstance"]
 - !private ["So21UIAppearanceContainerP", "viewControllers"]
-- !private ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "isNavigationBarHidden"]
 - ["So18UIContentContainerP", "storyboardInstance"]
 - !private ["So18UIContentContainerP", "viewControllers"]
-- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
 - !private ["So17UICoordinateSpaceP", "rootViewController"]
-- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
 - !private ["So13UIDynamicItemP", "rootViewController"]
@@ -285,15 +287,12 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "rootViewController"]
 - ["So18UIFocusEnvironmentP", "storyboardInstance"]
 - !private ["So18UIFocusEnvironmentP", "viewControllers"]
-- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "makeKeyAndVisible"]
 - !private ["So11UIFocusItemP", "rootViewController"]
-- !private ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "init"]
 - !private ["So20UIFocusItemContainerP", "makeKeyAndVisible"]
 - !private ["So20UIFocusItemContainerP", "rootViewController"]
-- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "init"]
 - !private ["So24UILargeContentViewerItemP", "makeKeyAndVisible"]
 - !private ["So24UILargeContentViewerItemP", "rootViewController"]
@@ -394,13 +393,11 @@ depends-member:
 - ["So15UISceneDelegateP", "stateRestorationActivityForScene"]
 - ["So15UISceneDelegateP", "window"]
 - ["So15UISceneDelegateP", "windowScene"]
-- !private ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "isNavigationBarHidden"]
 - ["So16UIStateRestoringP", "storyboardInstance"]
 - !private ["So16UIStateRestoringP", "viewControllers"]
 - !private ["So12UIStoryboardC", "init"]
 - !private ["So12UIStoryboardC", "instantiateInitialViewController"]
-- !private ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "isNavigationBarHidden"]
 - !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
@@ -461,10 +458,7 @@ depends-member:
 - ["So21UIWindowSceneDelegateP", "window"]
 - ["So21UIWindowSceneDelegateP", "windowScene"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "RegistrationViewController1"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
@@ -514,24 +508,18 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
-- "SK"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
 - "SH"
-- "s25LosslessStringConvertibleP"
+- "8SideMenu18InitializableClassP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
@@ -539,11 +527,8 @@ depends-nominal:
 - !private "Sj"
 - !private "9LoveChain27RegistrationViewController1C"
 - "9LoveChain13SceneDelegateC"
-- "ST"
 - !private "s13SignedNumericP"
 - !private "Sx"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -569,10 +554,7 @@ depends-nominal:
 - !private "So8UIWindowC"
 - "So21UIWindowSceneDelegateP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"
@@ -591,7 +573,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"

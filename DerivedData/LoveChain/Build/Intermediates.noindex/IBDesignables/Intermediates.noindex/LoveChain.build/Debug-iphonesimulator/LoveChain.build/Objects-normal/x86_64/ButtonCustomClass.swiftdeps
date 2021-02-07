@@ -404,6 +404,45 @@ depends-member:
 - !private ["SH", "updateLocations"]
 - !private ["SH", "updatePoints"]
 - ["SH", "white"]
+- !private ["8SideMenu18InitializableClassP", "CAGradientLayer"]
+- !private ["8SideMenu18InitializableClassP", "Key"]
+- !private ["8SideMenu18InitializableClassP", "NSAttributedString"]
+- !private ["8SideMenu18InitializableClassP", "NSMutableAttributedString"]
+- !private ["8SideMenu18InitializableClassP", "NSRange"]
+- !private ["8SideMenu18InitializableClassP", "NSUnderlineStyle"]
+- ["8SideMenu18InitializableClassP", "UIColor"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "addAttribute"]
+- ["8SideMenu18InitializableClassP", "black"]
+- !private ["8SideMenu18InitializableClassP", "borderColor"]
+- !private ["8SideMenu18InitializableClassP", "borderWidth"]
+- !private ["8SideMenu18InitializableClassP", "cgColor"]
+- !private ["8SideMenu18InitializableClassP", "colors"]
+- !private ["8SideMenu18InitializableClassP", "cornerRadius"]
+- !private ["8SideMenu18InitializableClassP", "count"]
+- !private ["8SideMenu18InitializableClassP", "diagonalMode"]
+- !private ["8SideMenu18InitializableClassP", "endColor"]
+- !private ["8SideMenu18InitializableClassP", "endLocation"]
+- !private ["8SideMenu18InitializableClassP", "endPoint"]
+- !private ["8SideMenu18InitializableClassP", "gradientLayer"]
+- !private ["8SideMenu18InitializableClassP", "horizontalMode"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "layer"]
+- !private ["8SideMenu18InitializableClassP", "layerClass"]
+- !private ["8SideMenu18InitializableClassP", "locations"]
+- !private ["8SideMenu18InitializableClassP", "maskedCorners"]
+- !private ["8SideMenu18InitializableClassP", "masksToBounds"]
+- !private ["8SideMenu18InitializableClassP", "setAttributedTitle"]
+- !private ["8SideMenu18InitializableClassP", "startColor"]
+- !private ["8SideMenu18InitializableClassP", "startLocation"]
+- !private ["8SideMenu18InitializableClassP", "startPoint"]
+- !private ["8SideMenu18InitializableClassP", "text"]
+- !private ["8SideMenu18InitializableClassP", "titleLabel"]
+- !private ["8SideMenu18InitializableClassP", "traitCollectionDidChange"]
+- !private ["8SideMenu18InitializableClassP", "updateColors"]
+- !private ["8SideMenu18InitializableClassP", "updateLocations"]
+- !private ["8SideMenu18InitializableClassP", "updatePoints"]
+- ["8SideMenu18InitializableClassP", "white"]
 - !private ["So21NSAttributedStringKeya", "underlineStyle"]
 - !private ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "count"]
@@ -542,7 +581,6 @@ depends-member:
 - ["So8NSObjectP", "AnyClass"]
 - ["So8NSObjectP", "Bool"]
 - ["So8NSObjectP", "CAGradientLayer"]
-- ["So8NSObjectP", "CGFloat"]
 - ["So8NSObjectP", "Double"]
 - !private ["So8NSObjectP", "Key"]
 - !private ["So8NSObjectP", "NSAttributedString"]
@@ -1550,6 +1588,7 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
+- "8SideMenu18InitializableClassP"
 - !private "So21NSAttributedStringKeya"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
@@ -1629,7 +1668,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"

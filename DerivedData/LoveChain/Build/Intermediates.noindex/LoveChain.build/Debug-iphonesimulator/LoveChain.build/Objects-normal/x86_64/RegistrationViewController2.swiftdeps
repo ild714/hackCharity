@@ -9,12 +9,14 @@ provides-dynamic-lookup:
 - "enter"
 - "enterVC"
 - "pickerData"
+- "register"
 - "storyboardInstance"
 - "viewDidLoad"
 depends-top-level:
 - "Array"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
+- !private "CollectionViewController"
 - "RegistrationViewController2"
 - !private "RegistrationViewController3"
 - !private "String"
@@ -24,9 +26,10 @@ depends-top-level:
 - "UIViewController"
 - !private "enter"
 depends-member:
-- !private ["SK", ""]
+- ["SK", ""]
 - !private ["SK", "init"]
-- !private ["So15CALayerDelegateP", "underline"]
+- ["So15CALayerDelegateP", "underline"]
+- !private ["s7CVarArgP", "CollectionViewController"]
 - !private ["s7CVarArgP", "RegistrationViewController3"]
 - !private ["s7CVarArgP", "String"]
 - !private ["s7CVarArgP", "UIStoryboard"]
@@ -37,13 +40,17 @@ depends-member:
 - !private ["s7CVarArgP", "instantiateViewController"]
 - !private ["s7CVarArgP", "navigationController"]
 - !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "register"]
 - !private ["s7CVarArgP", "storyboardInstance"]
 - !private ["s7CVarArgP", "underline"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- !private ["Sl", ""]
+- !private ["9LoveChain9CloseMenuP", "storyboardInstance"]
+- ["Sl", ""]
 - !private ["Sl", "init"]
-- !private ["SL", ""]
+- !private ["9LoveChain24CollectionViewControllerC", "storyboardInstance"]
+- ["SL", ""]
 - !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CollectionViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "RegistrationViewController3"]
 - !private ["s28CustomDebugStringConvertibleP", "String"]
 - !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
@@ -54,11 +61,13 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "navigationController"]
 - !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
 - !private ["s28CustomDebugStringConvertibleP", "storyboardInstance"]
 - !private ["s28CustomDebugStringConvertibleP", "underline"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "underline"]
+- !private ["s23CustomStringConvertibleP", "CollectionViewController"]
 - !private ["s23CustomStringConvertibleP", "RegistrationViewController3"]
 - !private ["s23CustomStringConvertibleP", "String"]
 - !private ["s23CustomStringConvertibleP", "UIStoryboard"]
@@ -69,6 +78,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "instantiateViewController"]
 - !private ["s23CustomStringConvertibleP", "navigationController"]
 - !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "register"]
 - !private ["s23CustomStringConvertibleP", "storyboardInstance"]
 - !private ["s23CustomStringConvertibleP", "underline"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
@@ -76,6 +86,7 @@ depends-member:
 - !private ["Se", "underline"]
 - !private ["SE", "init"]
 - !private ["SE", "underline"]
+- !private ["SQ", "CollectionViewController"]
 - !private ["SQ", "RegistrationViewController3"]
 - !private ["SQ", "String"]
 - !private ["SQ", "UIStoryboard"]
@@ -86,19 +97,21 @@ depends-member:
 - !private ["SQ", "instantiateViewController"]
 - !private ["SQ", "navigationController"]
 - !private ["SQ", "pushViewController"]
+- !private ["SQ", "register"]
 - !private ["SQ", "storyboardInstance"]
 - !private ["SQ", "underline"]
 - !private ["SQ", "viewDidLoad"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "underline"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "CollectionViewController"]
 - !private ["SH", "RegistrationViewController3"]
 - !private ["SH", "String"]
 - !private ["SH", "UIStoryboard"]
@@ -109,14 +122,33 @@ depends-member:
 - !private ["SH", "instantiateViewController"]
 - !private ["SH", "navigationController"]
 - !private ["SH", "pushViewController"]
+- !private ["SH", "register"]
 - !private ["SH", "storyboardInstance"]
 - !private ["SH", "underline"]
 - !private ["SH", "viewDidLoad"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["8SideMenu18InitializableClassP", "CollectionViewController"]
+- !private ["8SideMenu18InitializableClassP", "RegistrationViewController3"]
+- !private ["8SideMenu18InitializableClassP", "String"]
+- !private ["8SideMenu18InitializableClassP", "UIStoryboard"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "enter"]
+- !private ["8SideMenu18InitializableClassP", "enterVC"]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "instantiateViewController"]
+- !private ["8SideMenu18InitializableClassP", "navigationController"]
+- !private ["8SideMenu18InitializableClassP", "pushViewController"]
+- !private ["8SideMenu18InitializableClassP", "register"]
+- !private ["8SideMenu18InitializableClassP", "storyboardInstance"]
+- !private ["8SideMenu18InitializableClassP", "underline"]
+- !private ["8SideMenu18InitializableClassP", "viewDidLoad"]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CollectionViewController"]
+- ["So8NSCodingP", "RegistrationViewController2"]
 - !private ["So8NSCodingP", "RegistrationViewController3"]
 - !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UIButton"]
 - !private ["So8NSCodingP", "UIStoryboard"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "enter"]
@@ -125,11 +157,15 @@ depends-member:
 - !private ["So8NSCodingP", "navigationController"]
 - ["So8NSCodingP", "pickerData"]
 - !private ["So8NSCodingP", "pushViewController"]
-- !private ["So8NSCodingP", "storyboardInstance"]
-- !private ["So8NSCodingP", "underline"]
+- ["So8NSCodingP", "register"]
+- ["So8NSCodingP", "storyboardInstance"]
+- ["So8NSCodingP", "underline"]
 - ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "CollectionViewController"]
+- ["So26NSExtensionRequestHandlingP", "RegistrationViewController2"]
 - !private ["So26NSExtensionRequestHandlingP", "RegistrationViewController3"]
 - !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", "UIButton"]
 - !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "enter"]
@@ -138,8 +174,10 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "navigationController"]
 - ["So26NSExtensionRequestHandlingP", "pickerData"]
 - !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
-- !private ["So26NSExtensionRequestHandlingP", "storyboardInstance"]
+- ["So26NSExtensionRequestHandlingP", "register"]
+- ["So26NSExtensionRequestHandlingP", "storyboardInstance"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "CollectionViewController"]
 - ["So8NSObjectC", "RegistrationViewController2"]
 - !private ["So8NSObjectC", "RegistrationViewController3"]
 - !private ["So8NSObjectC", "String"]
@@ -150,28 +188,38 @@ depends-member:
 - ["So8NSObjectC", "enterVC"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "instantiateViewControllerWithIdentifier"]
 - !private ["So8NSObjectC", "navigationController"]
 - ["So8NSObjectC", "pickerData"]
 - !private ["So8NSObjectC", "pushViewController"]
+- ["So8NSObjectC", "register"]
 - ["So8NSObjectC", "storyboardInstance"]
+- !private ["So8NSObjectC", "storyboardWithName"]
 - !private ["So8NSObjectC", "underline"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "CollectionViewController"]
+- ["So8NSObjectP", "RegistrationViewController2"]
 - !private ["So8NSObjectP", "RegistrationViewController3"]
 - !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UIButton"]
 - !private ["So8NSObjectP", "UIStoryboard"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "enter"]
 - ["So8NSObjectP", "enterVC"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "instantiateViewControllerWithIdentifier"]
 - !private ["So8NSObjectP", "navigationController"]
 - ["So8NSObjectP", "pickerData"]
 - !private ["So8NSObjectP", "pushViewController"]
-- !private ["So8NSObjectP", "storyboardInstance"]
-- !private ["So8NSObjectP", "underline"]
+- ["So8NSObjectP", "register"]
+- ["So8NSObjectP", "storyboardInstance"]
+- !private ["So8NSObjectP", "storyboardWithName"]
+- ["So8NSObjectP", "underline"]
 - ["So8NSObjectP", "viewDidLoad"]
 - !private ["Sq", "underline"]
 - !private ["Sm", "init"]
+- !private ["9LoveChain27RegistrationViewController2C", "CollectionViewController"]
 - ["9LoveChain27RegistrationViewController2C", "RegistrationViewController2"]
 - !private ["9LoveChain27RegistrationViewController2C", "RegistrationViewController3"]
 - !private ["9LoveChain27RegistrationViewController2C", "String"]
@@ -184,22 +232,26 @@ depends-member:
 - ["9LoveChain27RegistrationViewController2C", "init"]
 - !private ["9LoveChain27RegistrationViewController2C", "navigationController"]
 - ["9LoveChain27RegistrationViewController2C", "pickerData"]
+- ["9LoveChain27RegistrationViewController2C", "register"]
 - ["9LoveChain27RegistrationViewController2C", "storyboardInstance"]
 - ["9LoveChain27RegistrationViewController2C", "viewDidLoad"]
 - !private ["9LoveChain27RegistrationViewController3C", "storyboardInstance"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["ST", "init"]
 - !private ["SS", "init"]
 - !private ["Sy", "init"]
-- !private ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "underline"]
-- !private ["So29UIAccessibilityIdentificationP", "underline"]
-- !private ["So12UIAppearanceP", "underline"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "underline"]
+- ["So29UIAccessibilityIdentificationP", "underline"]
+- ["So12UIAppearanceP", "underline"]
+- !private ["So21UIAppearanceContainerP", "CollectionViewController"]
+- ["So21UIAppearanceContainerP", "RegistrationViewController2"]
 - !private ["So21UIAppearanceContainerP", "RegistrationViewController3"]
 - !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", "UIButton"]
 - !private ["So21UIAppearanceContainerP", "UIStoryboard"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "enter"]
@@ -208,12 +260,20 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "navigationController"]
 - ["So21UIAppearanceContainerP", "pickerData"]
 - !private ["So21UIAppearanceContainerP", "pushViewController"]
-- !private ["So21UIAppearanceContainerP", "storyboardInstance"]
-- !private ["So21UIAppearanceContainerP", "underline"]
+- ["So21UIAppearanceContainerP", "register"]
+- ["So21UIAppearanceContainerP", "storyboardInstance"]
+- ["So21UIAppearanceContainerP", "underline"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So8UIButtonC", "underline"]
+- ["So26UICollectionViewDataSourceP", "storyboardInstance"]
+- !private ["So24UICollectionViewDelegateP", ""]
+- ["So24UICollectionViewDelegateP", "storyboardInstance"]
+- ["So34UICollectionViewDelegateFlowLayoutP", "storyboardInstance"]
+- !private ["So18UIContentContainerP", "CollectionViewController"]
+- ["So18UIContentContainerP", "RegistrationViewController2"]
 - !private ["So18UIContentContainerP", "RegistrationViewController3"]
 - !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", "UIButton"]
 - !private ["So18UIContentContainerP", "UIStoryboard"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "enter"]
@@ -222,14 +282,19 @@ depends-member:
 - !private ["So18UIContentContainerP", "navigationController"]
 - ["So18UIContentContainerP", "pickerData"]
 - !private ["So18UIContentContainerP", "pushViewController"]
-- !private ["So18UIContentContainerP", "storyboardInstance"]
+- ["So18UIContentContainerP", "register"]
+- ["So18UIContentContainerP", "storyboardInstance"]
 - ["So18UIContentContainerP", "viewDidLoad"]
-- !private ["So32UIContextMenuInteractionDelegateP", "underline"]
+- ["So32UIContextMenuInteractionDelegateP", "underline"]
+- ["So9UIControlC", ""]
 - !private ["So9UIControlC", "underline"]
-- !private ["So17UICoordinateSpaceP", "underline"]
-- !private ["So13UIDynamicItemP", "underline"]
+- ["So17UICoordinateSpaceP", "underline"]
+- ["So13UIDynamicItemP", "underline"]
+- !private ["So18UIFocusEnvironmentP", "CollectionViewController"]
+- ["So18UIFocusEnvironmentP", "RegistrationViewController2"]
 - !private ["So18UIFocusEnvironmentP", "RegistrationViewController3"]
 - !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
 - !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "enter"]
@@ -238,15 +303,19 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "navigationController"]
 - ["So18UIFocusEnvironmentP", "pickerData"]
 - !private ["So18UIFocusEnvironmentP", "pushViewController"]
-- !private ["So18UIFocusEnvironmentP", "storyboardInstance"]
-- !private ["So18UIFocusEnvironmentP", "underline"]
+- ["So18UIFocusEnvironmentP", "register"]
+- ["So18UIFocusEnvironmentP", "storyboardInstance"]
+- ["So18UIFocusEnvironmentP", "underline"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- !private ["So11UIFocusItemP", "underline"]
-- !private ["So20UIFocusItemContainerP", "underline"]
-- !private ["So24UILargeContentViewerItemP", "underline"]
+- ["So11UIFocusItemP", "underline"]
+- ["So20UIFocusItemContainerP", "underline"]
+- ["So24UILargeContentViewerItemP", "underline"]
 - !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "CollectionViewController"]
+- ["So30UIPasteConfigurationSupportingP", "RegistrationViewController2"]
 - !private ["So30UIPasteConfigurationSupportingP", "RegistrationViewController3"]
 - !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "enter"]
@@ -255,9 +324,11 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
 - ["So30UIPasteConfigurationSupportingP", "pickerData"]
 - !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
-- !private ["So30UIPasteConfigurationSupportingP", "storyboardInstance"]
-- !private ["So30UIPasteConfigurationSupportingP", "underline"]
+- ["So30UIPasteConfigurationSupportingP", "register"]
+- ["So30UIPasteConfigurationSupportingP", "storyboardInstance"]
+- ["So30UIPasteConfigurationSupportingP", "underline"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "CollectionViewController"]
 - ["So11UIResponderC", "RegistrationViewController2"]
 - !private ["So11UIResponderC", "RegistrationViewController3"]
 - !private ["So11UIResponderC", "String"]
@@ -270,11 +341,15 @@ depends-member:
 - !private ["So11UIResponderC", "navigationController"]
 - ["So11UIResponderC", "pickerData"]
 - !private ["So11UIResponderC", "pushViewController"]
+- ["So11UIResponderC", "register"]
 - ["So11UIResponderC", "storyboardInstance"]
 - !private ["So11UIResponderC", "underline"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CollectionViewController"]
+- ["So30UIResponderStandardEditActionsP", "RegistrationViewController2"]
 - !private ["So30UIResponderStandardEditActionsP", "RegistrationViewController3"]
 - !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
 - !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "enter"]
@@ -283,12 +358,18 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "navigationController"]
 - ["So30UIResponderStandardEditActionsP", "pickerData"]
 - !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
-- !private ["So30UIResponderStandardEditActionsP", "storyboardInstance"]
-- !private ["So30UIResponderStandardEditActionsP", "underline"]
+- ["So30UIResponderStandardEditActionsP", "register"]
+- ["So30UIResponderStandardEditActionsP", "storyboardInstance"]
+- ["So30UIResponderStandardEditActionsP", "underline"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
-- !private ["So35UISpringLoadedInteractionSupportingP", "underline"]
+- !private ["So20UIScrollViewDelegateP", ""]
+- ["So20UIScrollViewDelegateP", "storyboardInstance"]
+- ["So35UISpringLoadedInteractionSupportingP", "underline"]
+- !private ["So16UIStateRestoringP", "CollectionViewController"]
+- ["So16UIStateRestoringP", "RegistrationViewController2"]
 - !private ["So16UIStateRestoringP", "RegistrationViewController3"]
 - !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", "UIButton"]
 - !private ["So16UIStateRestoringP", "UIStoryboard"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "enter"]
@@ -297,12 +378,16 @@ depends-member:
 - !private ["So16UIStateRestoringP", "navigationController"]
 - ["So16UIStateRestoringP", "pickerData"]
 - !private ["So16UIStateRestoringP", "pushViewController"]
-- !private ["So16UIStateRestoringP", "storyboardInstance"]
+- ["So16UIStateRestoringP", "register"]
+- ["So16UIStateRestoringP", "storyboardInstance"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So12UIStoryboardC", "init"]
 - !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "CollectionViewController"]
+- ["So18UITraitEnvironmentP", "RegistrationViewController2"]
 - !private ["So18UITraitEnvironmentP", "RegistrationViewController3"]
 - !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", "UIButton"]
 - !private ["So18UITraitEnvironmentP", "UIStoryboard"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "enter"]
@@ -311,11 +396,15 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "navigationController"]
 - ["So18UITraitEnvironmentP", "pickerData"]
 - !private ["So18UITraitEnvironmentP", "pushViewController"]
-- !private ["So18UITraitEnvironmentP", "storyboardInstance"]
-- !private ["So18UITraitEnvironmentP", "underline"]
+- ["So18UITraitEnvironmentP", "register"]
+- ["So18UITraitEnvironmentP", "storyboardInstance"]
+- ["So18UITraitEnvironmentP", "underline"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "CollectionViewController"]
+- ["So23UIUserActivityRestoringP", "RegistrationViewController2"]
 - !private ["So23UIUserActivityRestoringP", "RegistrationViewController3"]
 - !private ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
 - !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "enter"]
@@ -324,10 +413,13 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "navigationController"]
 - ["So23UIUserActivityRestoringP", "pickerData"]
 - !private ["So23UIUserActivityRestoringP", "pushViewController"]
-- !private ["So23UIUserActivityRestoringP", "storyboardInstance"]
-- !private ["So23UIUserActivityRestoringP", "underline"]
+- ["So23UIUserActivityRestoringP", "register"]
+- ["So23UIUserActivityRestoringP", "storyboardInstance"]
+- ["So23UIUserActivityRestoringP", "underline"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
 - !private ["So6UIViewC", "underline"]
+- !private ["So16UIViewControllerC", "CollectionViewController"]
 - ["So16UIViewControllerC", "RegistrationViewController2"]
 - !private ["So16UIViewControllerC", "RegistrationViewController3"]
 - !private ["So16UIViewControllerC", "String"]
@@ -340,16 +432,19 @@ depends-member:
 - !private ["So16UIViewControllerC", "navigationController"]
 - ["So16UIViewControllerC", "pickerData"]
 - !private ["So16UIViewControllerC", "pushViewController"]
+- ["So16UIViewControllerC", "register"]
 - ["So16UIViewControllerC", "storyboardInstance"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CollectionViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "RegistrationViewController3"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
@@ -360,9 +455,11 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboardInstance"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "underline"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CollectionViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RegistrationViewController3"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStoryboard"]
@@ -373,6 +470,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storyboardInstance"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "underline"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
@@ -380,11 +478,13 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "underline"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "underline"]
 depends-nominal:
-- !private "SK"
-- !private "So15CALayerDelegateP"
+- "SK"
+- "So15CALayerDelegateP"
 - "s7CVarArgP"
-- !private "Sl"
-- !private "SL"
+- !private "9LoveChain9CloseMenuP"
+- "Sl"
+- !private "9LoveChain24CollectionViewControllerC"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
@@ -392,13 +492,14 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
-- !private "s25LosslessStringConvertibleP"
+- "8SideMenu18InitializableClassP"
+- "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
@@ -408,41 +509,46 @@ depends-nominal:
 - !private "Sm"
 - "9LoveChain27RegistrationViewController2C"
 - !private "9LoveChain27RegistrationViewController3C"
-- !private "ST"
+- "ST"
 - !private "SS"
 - !private "Sy"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
-- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
-- !private "So29UIAccessibilityIdentificationP"
-- !private "So12UIAppearanceP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - !private "So8UIButtonC"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- "So34UICollectionViewDelegateFlowLayoutP"
 - "So18UIContentContainerP"
-- !private "So32UIContextMenuInteractionDelegateP"
-- !private "So9UIControlC"
-- !private "So17UICoordinateSpaceP"
-- !private "So13UIDynamicItemP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
-- !private "So11UIFocusItemP"
-- !private "So20UIFocusItemContainerP"
-- !private "So24UILargeContentViewerItemP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
 - !private "So22UINavigationControllerC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
-- !private "So35UISpringLoadedInteractionSupportingP"
+- "So20UIScrollViewDelegateP"
+- "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - !private "So12UIStoryboardC"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
-- !private "So6UIViewC"
+- "So6UIViewC"
 - "So16UIViewControllerC"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -463,7 +569,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -478,4 +588,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f2a466554367caa81324e6ac334f30e8"
+interface-hash: "0a894cfe7f06925f0257545d8a5e4835"

@@ -189,6 +189,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
+@import Foundation;
 @import UIKit;
 #endif
 
@@ -207,6 +208,35 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class UILabel;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC9LoveChain32AllTasksCollectionViewController")
+@interface AllTasksCollectionViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelTasks;
+- (void)viewDidLoad;
+- (void)didTapMenu;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionView;
+@class UICollectionViewCell;
+
+@interface AllTasksCollectionViewController (SWIFT_EXTENSION(LoveChain)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@class UICollectionViewLayout;
+
+@interface AllTasksCollectionViewController (SWIFT_EXTENSION(LoveChain)) <UICollectionViewDelegateFlowLayout>
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIApplication;
 @class UISceneSession;
 @class UISceneConnectionOptions;
@@ -222,7 +252,6 @@ SWIFT_CLASS("_TtC9LoveChain11AppDelegate")
 
 @class UIColor;
 @class UITraitCollection;
-@class NSCoder;
 
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC9LoveChain17ButtonCustomClass")
@@ -245,7 +274,58 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layer
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
+
+SWIFT_CLASS("_TtC9LoveChain18CollectionViewCell")
+@interface CollectionViewCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timeLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified taskLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified status;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+
+SWIFT_CLASS("_TtC9LoveChain24CollectionViewController")
+@interface CollectionViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameLabel;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailLabel;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified roleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelTasks;
+- (void)viewDidLoad;
+- (void)didTapMenu;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface CollectionViewController (SWIFT_EXTENSION(LoveChain)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+@interface CollectionViewController (SWIFT_EXTENSION(LoveChain)) <UICollectionViewDelegateFlowLayout>
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UITableView;
+@class UITableViewCell;
+
+SWIFT_CLASS("_TtC9LoveChain18MenuViewController")
+@interface MenuViewController : UITableViewController
+- (void)viewDidLoad;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9LoveChain27RegistrationViewController1")
 @interface RegistrationViewController1 : UIViewController
@@ -262,6 +342,8 @@ SWIFT_CLASS("_TtC9LoveChain27RegistrationViewController2")
 @interface RegistrationViewController2 : UIViewController
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified enter;
 - (void)viewDidLoad;
+- (IBAction)register:(id _Nonnull)sender;
+- (IBAction)enter:(id _Nonnull)sender;
 - (IBAction)enterVC:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -272,6 +354,7 @@ SWIFT_CLASS("_TtC9LoveChain27RegistrationViewController3")
 @interface RegistrationViewController3 : UIViewController
 @property (nonatomic, weak, getter=register, setter=setRegister:) IBOutlet UIButton * _Null_unspecified register_;
 - (void)viewDidLoad;
+- (IBAction)enter:(id _Nonnull)sender;
 - (IBAction)registerButton:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -291,6 +374,15 @@ SWIFT_CLASS("_TtC9LoveChain13SceneDelegate")
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_CLASS("_TtC9LoveChain25TaskCreatorViewController")
+@interface TaskCreatorViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 #if __has_attribute(external_source_symbol)

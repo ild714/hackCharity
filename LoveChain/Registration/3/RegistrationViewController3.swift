@@ -17,6 +17,11 @@ class RegistrationViewController3: UIViewController {
         register.underline()
     }
     
+    @IBAction func enter(_ sender: Any) {
+        if let enter = CollectionViewController.storyboardInstance() {
+            self.navigationController?.pushViewController(enter, animated: true)
+        }
+    }
     @IBAction func registerButton(_ sender: Any) {
         if let enterVC = RegistrationViewController2.storyboardInstance() {
             self.navigationController?.pushViewController(enterVC, animated: true)

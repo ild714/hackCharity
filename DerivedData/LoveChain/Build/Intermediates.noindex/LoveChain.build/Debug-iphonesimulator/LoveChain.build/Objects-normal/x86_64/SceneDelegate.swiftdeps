@@ -157,6 +157,28 @@ depends-member:
 - !private ["SH", "viewControllers"]
 - ["SH", "window"]
 - ["SH", "windowScene"]
+- ["8SideMenu18InitializableClassP", "ConnectionOptions"]
+- !private ["8SideMenu18InitializableClassP", "RegistrationViewController1"]
+- !private ["8SideMenu18InitializableClassP", "UIStoryboard"]
+- !private ["8SideMenu18InitializableClassP", "UIWindow"]
+- ["8SideMenu18InitializableClassP", ""]
+- !private ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "instantiateInitialViewController"]
+- !private ["8SideMenu18InitializableClassP", "isNavigationBarHidden"]
+- !private ["8SideMenu18InitializableClassP", "makeKeyAndVisible"]
+- !private ["8SideMenu18InitializableClassP", "rootViewController"]
+- ["8SideMenu18InitializableClassP", "scene"]
+- ["8SideMenu18InitializableClassP", "sceneDidBecomeActive"]
+- ["8SideMenu18InitializableClassP", "sceneDidDisconnect"]
+- ["8SideMenu18InitializableClassP", "sceneDidEnterBackground"]
+- ["8SideMenu18InitializableClassP", "sceneWillEnterForeground"]
+- ["8SideMenu18InitializableClassP", "sceneWillResignActive"]
+- ["8SideMenu18InitializableClassP", "stateRestorationActivity"]
+- ["8SideMenu18InitializableClassP", "stateRestorationActivityForScene"]
+- !private ["8SideMenu18InitializableClassP", "storyboardInstance"]
+- !private ["8SideMenu18InitializableClassP", "viewControllers"]
+- ["8SideMenu18InitializableClassP", "window"]
+- ["8SideMenu18InitializableClassP", "windowScene"]
 - ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "init"]
@@ -531,6 +553,7 @@ depends-nominal:
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
 - "SH"
+- "8SideMenu18InitializableClassP"
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
@@ -591,7 +614,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/ildar/Desktop/TestApp/DerivedData/LoveChain/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
