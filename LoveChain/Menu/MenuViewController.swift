@@ -10,6 +10,7 @@ import UIKit
 protocol CloseMenu:class {
     func close()
     func showAllTasks()
+    func showTaskCreator()
 }
 
 class MenuViewController: UITableViewController {
@@ -54,6 +55,13 @@ class MenuViewController: UITableViewController {
             delegate?.close()
         } else if indexPath.row == 1 {
             delegate?.showAllTasks()
+        } else if indexPath.row == 2 {
+            delegate?.showTaskCreator()
+        } else if indexPath.row == 3{
+            if let beiginVC = RegistrationViewController1.storyboardInstance() {
+                self.navigationController?.pushViewController(beiginVC, animated: true)
+                beiginVC.navigationController?.isNavigationBarHidden = true
+            }
         }
         tableView.deselectRow(at: indexPath, animated: true)
     }

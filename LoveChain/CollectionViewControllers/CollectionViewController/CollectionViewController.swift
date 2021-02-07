@@ -13,6 +13,7 @@ class CollectionViewController: UIViewController {
     @IBOutlet weak var nameLabel: UITextField!
     @IBOutlet weak var emailLabel: UITextField!
     @IBOutlet weak var roleLabel: UITextField!
+    var newTask: String = ""
     private var menu: SideMenuNavigationController?
     private var safeArea: UILayoutGuide!
     private let cellIdentifier = String(describing: CollectionViewCell.self)
@@ -26,6 +27,7 @@ class CollectionViewController: UIViewController {
         collectionView.dataSource = self
         return collectionView
     }()
+    
     
     var tasks: [ModelTask] = [ModelTask(time: "5 февраля 14:30", title: "Пожертвование в размере 500 рублей", status: "Ожидает верификации",type: .done),ModelTask(time: "5 февраля 14:50", title: "Пожертвование в размере 700 рублей", status: "Ожидает верификации",type: .process),ModelTask(time: "5 февраля 15:30", title: "Пожертвование в размере 1000 рублей", status: "Ожидает верификации",type: .processRealiation)]
     
@@ -43,6 +45,8 @@ class CollectionViewController: UIViewController {
         emailLabel.isEnabled = false
         roleLabel.isEnabled = false
         setupTableView()
+        
+       
     }
     
     func setupTableView() {
@@ -121,7 +125,23 @@ extension CollectionViewController: CloseMenu {
     func showAllTasks() {
         self.menu?.dismiss(animated: true, completion: nil)
         if let allTaskVC = AllTasksCollectionViewController.storyboardInstance() {
+//            allTaskVC.collectionVC = self
             self.navigationController?.pushViewController(allTaskVC, animated: true)
         }
     }
+    
+    func showTaskCreator() {
+        self.menu?.dismiss(animated: true, completion: nil)
+        if let taskCreatorVC = TaskCreatorViewController.storyboardInstance() {
+            taskCreatorVC.delegate = self
+            self.navigationController?.pushViewController(taskCreatorVC, animated: true)
+        }
+    }
+}
+
+extension CollectionViewController: CreateTask {
+    func create() {
+        tasks.append(ModelTask(time: "6 февраля 14:30", title: self.newTask, status: "Ожидает верификации",type: .process))
+    }
+    
 }

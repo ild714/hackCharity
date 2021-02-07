@@ -12,6 +12,7 @@ class AllTasksCollectionViewController: UIViewController {
 
     private var menu: SideMenuNavigationController?
     private var safeArea: UILayoutGuide!
+//    var collectionVC: CollectionViewController?
     private let cellIdentifier = String(describing: CollectionViewCell.self)
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -117,6 +118,14 @@ extension AllTasksCollectionViewController: CloseMenu {
         self.menu?.dismiss(animated: true, completion: nil)
         if let cabinetVC = CollectionViewController.storyboardInstance() {
             self.navigationController?.pushViewController(cabinetVC, animated: true)
+        }
+    }
+    
+    func showTaskCreator() {
+        self.menu?.dismiss(animated: true, completion: nil)
+        if let taskCreatorVC = TaskCreatorViewController.storyboardInstance() {
+//            taskCreatorVC.delegate = self.collectionVC
+            self.navigationController?.pushViewController(taskCreatorVC, animated: true)
         }
     }
 }

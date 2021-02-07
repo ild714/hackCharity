@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8lw-rs-ZWT">
-                                <rect key="frame" x="31" y="68" width="352" height="296"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8lw-rs-ZWT">
+                                <rect key="frame" x="31" y="68" width="352" height="180.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Создайте заявку" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wy2-jo-DIq">
                                         <rect key="frame" x="0.0" y="0.0" width="352" height="20.5"/>
@@ -28,17 +28,11 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите ваше задание" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oki-wP-lW4">
-                                        <rect key="frame" x="0.0" y="28.5" width="352" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Пожертвование в размере 1000 рублей" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6bj-JK-u5i">
-                                        <rect key="frame" x="0.0" y="57" width="352" height="239"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Пожертвование в размере 1000 рублей" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6bj-JK-u5i">
+                                        <rect key="frame" x="0.0" y="40.5" width="352" height="140"/>
                                         <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="239" id="62u-jI-HXI"/>
+                                            <constraint firstAttribute="height" constant="140" id="62u-jI-HXI"/>
                                         </constraints>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -49,6 +43,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Crm-el-5nB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8lw-rs-ZWT" firstAttribute="top" secondItem="Crm-el-5nB" secondAttribute="top" constant="24" id="2pT-Q0-tpK"/>
+                            <constraint firstItem="Crm-el-5nB" firstAttribute="trailing" secondItem="8lw-rs-ZWT" secondAttribute="trailing" constant="31" id="BFo-YB-FoU"/>
+                            <constraint firstItem="8lw-rs-ZWT" firstAttribute="leading" secondItem="Crm-el-5nB" secondAttribute="leading" constant="31" id="xbg-Ug-ulh"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="textField" destination="6bj-JK-u5i" id="nqT-Wd-yvy"/>
