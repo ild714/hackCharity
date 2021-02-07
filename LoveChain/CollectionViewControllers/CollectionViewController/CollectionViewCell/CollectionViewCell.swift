@@ -28,7 +28,7 @@ class CollectionViewCell: UICollectionViewCell {
             status.text  = "Выполнено"
         } else {
             status.textColor = UIColor(redS: 0, greenS: 128, blueS: 135)
-            status.text  = "Ожидает верификации"
+            status.text  = "Ожидает выполнения"
         }
         taskLabel.text = model.title
         timeLabel.text = model.time
